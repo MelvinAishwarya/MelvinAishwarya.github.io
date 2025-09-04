@@ -71,14 +71,6 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c SAVE THE DATE: 29th Dec, 2024!', styles);
-
-console.log('%cYour presence is requested!%c\n\nRegards: Basil Sajeev', styles1, styles2);
-
-console.log(
-    `%come to my wedding reception!!\n\n`,
-    'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
-)
 
 const overlay = document.getElementById('overlay');
 const closeOverlayBtn = document.querySelector('.close-overlay');
